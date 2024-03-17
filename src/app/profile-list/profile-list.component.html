@@ -1,0 +1,18 @@
+<div class="container mt-5">
+   
+ 
+  <div *ngFor="let profile of profile" class="profile-card"> 
+    <div class="card-container">
+    
+    <img [src]="profile.img" alt="Profile Picture">
+    <h2>{{ profile.Username }}</h2>
+    <p>{{ profile.Mobile }}</p>
+    <ul>
+      <li>Address: {{ profile.Address }}</li>
+      <li>boi: {{ profile. boi}}</li>
+       <a routerLink="/profile-details">enter</a>
+      <button type="button" class="btn btn-primary"(click)="details"> details</button>
+    </ul>
+  </div>
+  </div>
+  </div>

@@ -1,0 +1,43 @@
+{
+  "profile": [
+    {
+      "Username": "tanuj",
+      "Name": "tanuj w",
+      "Mobile": "7581582554",
+      "Pan": "ABMAS2345M",
+      "Password": "tanuj@123",
+      "Email": "tanujw553@gmail.com",
+      "Address": "pune",
+      "Maps": "",
+      "Gender": "male",
+      "id": 6,
+      "img": "/assets/img/6.jpg"
+    },
+    {
+      "Username": "mosin ",
+      "Name": "mosin mula",
+      "Mobile": "7581582554",
+      "Pan": "ABMAS2345M",
+      "Password": "Mosin@123",
+      "Email": "mosinmulla553@gmail.com",
+      "Address": "pune",
+      "Maps": "",
+      "Gender": "male",
+      "id": 7,
+      "img": "/assets/img/7.jpg"
+    },
+    {
+      "Username": "kale",
+      "Name": "kale sp",
+      "Mobile": "7581582554",
+      "Pan": "ABMAS2345M",
+      "Password": "kalesp@123",
+      "Email": "kalesp553@gmail.com",
+      "Address": "pune",
+      "Maps": "",
+      "Gender": "male",
+      "id": 8,
+      "img": "/assets/img/8.jpg"
+    }
+  ]
+}
