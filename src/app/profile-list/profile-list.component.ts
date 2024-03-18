@@ -9,11 +9,12 @@ import { Router } from '@angular/router';
 export class ProfileListComponent {
   profiles: any;
   profile: any;
-  router: any;
+   
+  
   
 
   
-  constructor(private api:ProfileService,router:Router){}
+  constructor(private api:ProfileService,private router:Router){}
   
   ngOnInit(): void {
       this.api.ProfileDetails().subscribe((data)=>{
@@ -22,8 +23,10 @@ export class ProfileListComponent {
     });
     }
 
-details(){
+    async detailsApiCall(id:number){     
+     this.api.databyid= await this.api.editApiCall( id).toPromise();
 
-    this.router.navigateByUrl('profile-details')
+      this.router.navigateByUrl('/profile-details')
+    }
+
   }
-}

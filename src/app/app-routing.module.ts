@@ -8,10 +8,10 @@ import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 
 
 const routes: Routes = [
-{path: '',component:ProfileListComponent},
-{path: 'map-view',component:MapViewComponent},
-{path: 'profile-details',component:ProfileDetailsComponent},
-{path: 'admin-panel',component:AdminPanelComponent},
+  { path: '',component:ProfileListComponent },
+  { path: 'map-view', component: MapViewComponent },
+  { path: 'profile-details', component: ProfileDetailsComponent },
+  { path: 'admin-panel', component: AdminPanelComponent },
 ];
 
 

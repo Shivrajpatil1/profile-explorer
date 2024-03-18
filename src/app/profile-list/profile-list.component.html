@@ -10,8 +10,9 @@
     <ul>
       <li>Address: {{ profile.Address }}</li>
       <li>boi: {{ profile. boi}}</li>
-       <a routerLink="/profile-details">enter</a>
-      <button type="button" class="btn btn-primary"(click)="details"> details</button>
+      
+      <button type="button" class="btn btn-primary" (click)="detailsApiCall(profile.id)" > Details</button>
+     
     </ul>
   </div>
   </div>

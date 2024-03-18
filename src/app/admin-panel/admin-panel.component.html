@@ -1,1 +1,28 @@
 <p>admin-panel works!</p>
+<form class="form" [formGroup]="profilForm">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <div class="form-inner">
+        
+        
+        <div class="content">
+            <input type="text" class="input" placeholder="Username" formControlName="Username">
+            <input type="number" class="input" placeholder="Mobile" formControlName="Mobile">
+            <input type="text" class="input" placeholder="Name" formControlName="Name">
+            <input type="text" class="input" placeholder="Pan" formControlName="Pan">
+            <input type="number" class="input" placeholder="Email" formControlName="Email">
+            <input type="text" class="input" placeholder="Maps" formControlName="Maps"> 
+            <input class="input" placeholder="Address" formControlName="Address">
+             <input type="number" class="input" placeholder="Password" formControlName="Password">
+           
+            <button type="submit" class="btn" [disabled]="!profilForm.valid" (click)="onSubmit()">{{this. editId ?
+                'Update':'Submit'}}</button>
+        </div>
+    </div>
+</form>
+
+
+
+

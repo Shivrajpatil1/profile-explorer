@@ -8,6 +8,8 @@ import { MapViewComponent } from './map-view/map-view.component';
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { AdminPanelComponent } from './admin-panel/admin-panel.component';
 import { HttpClientModule } from '@angular/common/http';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -23,7 +25,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    GoogleMapsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
